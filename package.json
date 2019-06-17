@@ -1,0 +1,19 @@
+{
+  "name": "lab-tcwdbc-blog-website-ejs",
+  "version": "1.0.0",
+  "description": "This project enable users to know about EJS templating engine & how to implement it on their website via this blog website challenge which is created using EJS.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashsati29/lab-tcwdbc-blog-website-ejs.git"
+  },
+  "author": "DevS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yashsati29/lab-tcwdbc-blog-website-ejs/issues"
+  },
+  "homepage": "https://github.com/yashsati29/lab-tcwdbc-blog-website-ejs#readme"
+}
