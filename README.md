@@ -1,5 +1,6 @@
-# lab-tcwdbc-blog-website-ejs
+# Blog Website (EJS)
 ===============================
+
 This project enable users to know about EJS templating engine &amp; how to implement it on their website via this blog website challenge which is created using EJS.
 
 # How to run this project?
