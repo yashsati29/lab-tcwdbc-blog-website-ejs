@@ -32,10 +32,12 @@ app.use(bodyParser.urlencoded({
 app.use(express.static("public"));
 
 app.get('/', function(req, res) {
-  res.render('home', {
-    startingContent: homeStartingContent,
-    posts: posts
-  });
+  Post.find({}, function(err, posts) {
+    res.render('home', {
+      startingContent: homeStartingContent,
+      posts: posts
+    });
+  })
 })
 
 app.get('/about', function(req, res) {
